@@ -8,9 +8,14 @@ Due to the volatility of cryptocurrency speculation, investors will often try to
 In this assignment, you will use deep learning recurrent neural networks to model bitcoin closing prices. One model will use the FNG indicators to predict the closing price while the second model will use a window of closing prices to predict the nth closing price.
 
 #### Which model has a lower loss?
+Answer: The model with the lower loss is the closing prices predictor
+
 ![Closing predictor](https://user-images.githubusercontent.com/85688247/177032419-9a390195-c0e5-4eb6-9828-21285c648c25.png)
 
 #### Which model tracks the actual values better over time?
+Answer: The model with better results over time is the closing prices predictor
 
+![real vs predicted values](https://user-images.githubusercontent.com/85688247/177032491-826ac96e-da8c-400a-9b12-cd0c72860e37.png)
 
 #### Which window size works best for the model?
+Answer: The window size of 1 day works best for the model.
